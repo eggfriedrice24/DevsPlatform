@@ -1,4 +1,3 @@
-from unicodedata import name
 from django.db import models
 from django.contrib.auth.models import User
 import uuid
@@ -35,3 +34,4 @@ class Skill(models.Model):
 
     def __str__(self) -> str:
         return self.name
+
